@@ -1,0 +1,254 @@
+/* Heftchen-Drucklayout für Basketball-Abzeichen */
+
+/* Vorschau-Modus */
+.booklet-preview {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+  overflow: auto;
+}
+
+.booklet-preview.show {
+  display: block;
+}
+
+.booklet-preview-content {
+  background: white;
+  margin: 20px auto;
+  width: 210mm;
+  height: 297mm;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.booklet-preview-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: #e74c3c;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.booklet-preview-close:hover {
+  background: #c0392b;
+}
+
+/* Druckstile für Heftchen-Format */
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  
+  .print-booklet,
+  .print-booklet * {
+    visibility: visible;
+  }
+  
+  .print-booklet {
+    display: flex !important;
+    flex-wrap: wrap;
+    width: 210mm;
+    height: 297mm;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+  
+  .booklet-page {
+    width: 105mm;
+    height: 148.5mm;
+    box-sizing: border-box;
+    padding: 8mm;
+    border: 1px solid #ccc;
+    position: relative;
+    page-break-inside: avoid;
+  }
+  
+  /* Anordnung für Heftchen-Faltung: 2x2 Grid */
+  .front-page {
+    order: 1;
+  }
+  
+  .stage-page:nth-of-type(2) {
+    order: 2;
+  }
+  
+  .stage-page:nth-of-type(3) {
+    order: 3;
+  }
+  
+  .stage-page:nth-of-type(4) {
+    order: 4;
+  }
+  
+  .page-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .page-content h1 {
+    font-size: 18pt;
+    margin-bottom: 8mm;
+    text-align: center;
+    color: #2c3e50;
+  }
+  
+  .page-content h2 {
+    font-size: 14pt;
+    margin-bottom: 6mm;
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 2mm;
+  }
+  
+  .intro-content {
+    font-size: 10pt;
+    line-height: 1.4;
+    margin-bottom: 8mm;
+    text-align: justify;
+  }
+  
+  .stage-1-content,
+  .stage-2-content,
+  .stage-3-content {
+    font-size: 9pt;
+    line-height: 1.3;
+    flex-grow: 1;
+  }
+  
+  .stage-1-content ul,
+  .stage-2-content ul,
+  .stage-3-content ul {
+    margin: 3mm 0;
+    padding-left: 4mm;
+  }
+  
+  .stage-1-content li,
+  .stage-2-content li,
+  .stage-3-content li {
+    margin-bottom: 2mm;
+    position: relative;
+  }
+  
+  .stage-1-content li::before,
+  .stage-2-content li::before,
+  .stage-3-content li::before {
+    content: '☐';
+    position: absolute;
+    left: -6mm;
+    color: #3498db;
+  }
+  
+  .stage-1-content li.checked::before,
+  .stage-2-content li.checked::before,
+  .stage-3-content li.checked::before {
+    content: '☑';
+    color: #27ae60;
+  }
+  
+  .trainer-field {
+    margin-top: 6mm;
+    font-size: 9pt;
+    border-top: 1px solid #bdc3c7;
+    padding-top: 3mm;
+  }
+  
+  .trainer-field p {
+    margin: 2mm 0;
+  }
+  
+  .signature-fields {
+    margin-top: 8mm;
+    font-size: 10pt;
+    border-top: 1px solid #bdc3c7;
+    padding-top: 3mm;
+  }
+  
+  .signature-fields p {
+    margin: 3mm 0;
+  }
+  
+  /* Ausfüllbare Felder im Druck */
+  input[type="text"] {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    font-size: inherit;
+    width: 40mm;
+    display: inline-block;
+  }
+  
+  /* Checkboxen für Listenpunkte */
+  .checked {
+    text-decoration: line-through;
+    color: #7f8c8d;
+  }
+  
+  /* Falzlinien für Orientierung */
+  .booklet-page::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: #ddd;
+    z-index: -1;
+  }
+  
+  .booklet-page::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #ddd;
+    z-index: -1;
+  }
+  
+  /* Wasserzeichen für Faltanweisung */
+  .booklet-page::before {
+    content: 'Falten Sie hier';
+    position: absolute;
+    top: 2mm;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 6pt;
+    color: #95a5a6;
+    z-index: 1;
+  }
+}
+
+/* Normale Anzeige - verstecke Heftchen */
+.print-booklet {
+  display: none;
+}
+
+/* Vorschau-Button Styling */
+.preview-btn {
+  background: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.preview-btn:hover {
+  background: #2980b9;
+} 

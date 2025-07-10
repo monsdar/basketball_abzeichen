@@ -8,6 +8,94 @@
   <a href="{{ .Site.BaseURL }}abzeichen/">Zurück zur Übersicht</a>
 </article>
 
+<!-- Druckversion für Heftchen-Format -->
+<div class="print-booklet">
+  <!-- Seite 1: Vorderseite -->
+  <div class="booklet-page front-page">
+    <div class="page-content">
+      <h1>{{ .Title }}</h1>
+      <div class="intro-content">
+        {{ if .Params.intro }}{{ .Params.intro }}{{ else }}
+        Mit diesem Abzeichen beweist du dein Können in verschiedenen Bereichen des Basketballs. 
+        Die Übungen dürfen mehrfach trainiert werden. Jede Stufe kann einzeln abgelegt und bestätigt werden.
+        {{ end }}
+      </div>
+      <div class="signature-fields">
+        <p>Name: __________________________</p>
+        <p>Datum: __________________________</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Seite 2: Stufe 1 -->
+  <div class="booklet-page stage-page">
+    <div class="page-content">
+      <h2>Stufe 1: Starter</h2>
+      <div class="stage-1-content">
+        {{ if .Params.stage1 }}
+          {{ .Params.stage1 | safeHTML }}
+        {{ else }}
+          <ul>
+            <li>Grundlagen beherrschen</li>
+            <li>Erste Sicherheit zeigen</li>
+            <li>Technik korrekt ausführen</li>
+          </ul>
+        {{ end }}
+      </div>
+      <div class="trainer-field">
+        <p>Trainer: _______________________</p>
+        <p>Bestanden am: ________________</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Seite 3: Stufe 2 -->
+  <div class="booklet-page stage-page">
+    <div class="page-content">
+      <h2>Stufe 2: Profi</h2>
+      <div class="stage-2-content">
+        {{ if .Params.stage2 }}
+          {{ .Params.stage2 | safeHTML }}
+        {{ else }}
+          <ul>
+            <li>Fortgeschrittene Techniken</li>
+            <li>Spielsituationen meistern</li>
+            <li>Konsistente Leistung</li>
+          </ul>
+        {{ end }}
+      </div>
+      <div class="trainer-field">
+        <p>Trainer: _______________________</p>
+        <p>Bestanden am: ________________</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Seite 4: Stufe 3 -->
+  <div class="booklet-page stage-page">
+    <div class="page-content">
+      <h2>Stufe 3: Champion</h2>
+      <div class="stage-3-content">
+        {{ if .Params.stage3 }}
+          {{ .Params.stage3 | safeHTML }}
+        {{ else }}
+          <ul>
+            <li>Höchste Stufe erreichen</li>
+            <li>Unter Druck bestehen</li>
+            <li>Vorbildliche Technik</li>
+          </ul>
+        {{ end }}
+      </div>
+      <div class="trainer-field">
+        <p>Trainer: _______________________</p>
+        <p>Bestanden am: ________________</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="{{ .Site.BaseURL }}css/print-booklet.css">
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   // Mache nur ungeordnete Listenpunkte in Abzeichen-Inhalten klickbar
@@ -32,6 +120,9 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     content.innerHTML = updatedText;
   }
+  
+  // Bereite Heftchen-Inhalt vor
+  prepareBookletContent();
 });
 
 function getFieldType(underscores) {
@@ -42,5 +133,100 @@ function getFieldType(underscores) {
   if (text.includes('Bestanden')) return 'date-field';
   return 'fillable-field';
 }
+
+function prepareBookletContent() {
+  const badgeContent = document.querySelector('.badge-content');
+  if (!badgeContent) return;
+  
+  // Extrahiere Einleitungstext (alles vor dem ersten h2)
+  const introSection = badgeContent.querySelector('h2');
+  if (introSection) {
+    let introText = '';
+    let nextElement = introSection.nextElementSibling;
+    
+    // Sammle nur die ersten Paragraphen bis zum ersten h1
+    while (nextElement && nextElement.tagName !== 'H1') {
+      if (nextElement.tagName === 'P') {
+        // Überspringe die Namens- und Datumsfelder
+        if (!nextElement.textContent.includes('Name:') && !nextElement.textContent.includes('Datum:')) {
+          introText += nextElement.textContent + ' ';
+        }
+      }
+      nextElement = nextElement.nextElementSibling;
+    }
+    
+    // Setze Einleitungstext in die Vorderseite
+    const introDiv = document.querySelector('.intro-content');
+    if (introDiv && introText.trim()) {
+      introDiv.innerHTML = introText.trim();
+    }
+  }
+  
+  // Extrahiere Stufen-Inhalte
+  const stageSections = badgeContent.querySelectorAll('h1');
+  if (stageSections.length >= 3) {
+    // Stufe 1
+    const stage1Content = document.querySelector('.stage-1-content');
+    if (stage1Content && stageSections[0]) {
+      const stage1HTML = extractStageContentFromElement(stageSections[0]);
+      if (stage1HTML) {
+        stage1Content.innerHTML = stage1HTML;
+      }
+    }
+    
+    // Stufe 2
+    const stage2Content = document.querySelector('.stage-2-content');
+    if (stage2Content && stageSections[1]) {
+      const stage2HTML = extractStageContentFromElement(stageSections[1]);
+      if (stage2HTML) {
+        stage2Content.innerHTML = stage2HTML;
+      }
+    }
+    
+    // Stufe 3
+    const stage3Content = document.querySelector('.stage-3-content');
+    if (stage3Content && stageSections[2]) {
+      const stage3HTML = extractStageContentFromElement(stageSections[2]);
+      if (stage3HTML) {
+        stage3Content.innerHTML = stage3HTML;
+      }
+    }
+  }
+  
+  // Mache Listenpunkte im Heftchen klickbar
+  const bookletListItems = document.querySelectorAll('.print-booklet ul li');
+  bookletListItems.forEach(function(item) {
+    item.addEventListener('click', function() {
+      this.classList.toggle('checked');
+    });
+  });
+}
+
+function extractStageContentFromElement(stageElement) {
+  let content = '';
+  let nextElement = stageElement.nextElementSibling;
+  
+  // Sammle alle Inhalte bis zum nächsten h1 oder Ende
+  while (nextElement && nextElement.tagName !== 'H1') {
+    // Überspringe Trainer-Felder
+    if (nextElement.textContent.includes('Trainer:') || nextElement.textContent.includes('Bestanden am:')) {
+      nextElement = nextElement.nextElementSibling;
+      continue;
+    }
+    
+    if (nextElement.tagName === 'P') {
+      content += '<p>' + nextElement.textContent + '</p>';
+    } else if (nextElement.tagName === 'UL') {
+      content += nextElement.outerHTML;
+    }
+    nextElement = nextElement.nextElementSibling;
+  }
+  
+  return content.trim();
+}
+
+
+
+
 </script>
 {{ end }} 
