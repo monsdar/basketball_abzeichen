@@ -52,7 +52,10 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "${{ steps.pages.outputs.base_url }}/" \
+            --theme basketball-theme \
+            --buildDrafts=false \
+            --buildFuture=false
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

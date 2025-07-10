@@ -11,3 +11,5 @@ Zusammen mit ein paar Freunden kamen wir schnell darauf, die verschiedenen Berei
 Um das Konzept weiter auszubauen wurden Teile dieser Seite mit dem Feedback generativer KI erarbeitet. Schlussendlich sind alle Inhalte jedoch in Handarbeit erzeugt worden und stammen aus meiner persönlichen Feder, angereichert mit vielen Ideen der Personen in meinem Umfeld.
 
 Diese Seite verfolgt keine gewerblichen Interessen, für das Hosting entstehen nur marginale Kosten. Falls dennoch der Wunsch besteht mich in der Arbeit zu unterstützen kann dies gern über einen Kaffee getan werden: ☕ [Buy Me a Coffee](https://buymeacoffee.com/monsdar) ☕
+
+Falls Interesse besteht was ich sonst so mache geht es hier zu meinem Blog: [Build🔁Deploy🔁Repeat](https://nils.brink.men)
