@@ -47,7 +47,7 @@ Bestanden am: ________________
 Du bist ein echtes Vorbild für Teamgeist und Zusammenhalt.
 
 * Gebe regelmäßig motivierende Impulse (z. B. Applaus, Anfeuern)
-* HatBeweise in mehreren Trainings: Teamleistung ist größer als Eigenleistung
+* Beweise in mehreren Trainings: Teamleistung ist größer als Eigenleistung
 * Reagiere vorbildlich auf Streit, Fouls oder Frust im Spiel
 * Übernehme Verantwortung im Team (z. B. bei Aufstellung, Hilfe, Gruppen)
 
