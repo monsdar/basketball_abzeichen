@@ -1,4 +1,4 @@
-baseURL = '/'
+baseURL = 'https://monsdar.github.io/basketball_abzeichen/'
 languageCode = 'de-de'
 title = 'Basketball Abzeichen'
 theme = 'basketball-theme'

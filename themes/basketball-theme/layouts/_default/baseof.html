@@ -5,16 +5,16 @@
   <title>{{ block "title" . }}{{ .Title }} | Basketball Abzeichen{{ end }}</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="{{ .Site.Params.description }}">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/print.css" media="print">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+  <link rel="stylesheet" href="{{ .Site.BaseURL }}css/print.css" media="print">
 </head>
 <body>
   <header>
     <nav>
-      <a href="/">Startseite</a> | 
-      <a href="/abzeichen/">Abzeichen</a> | 
-      <a href="/about/">Über mich</a> | 
-      <a href="/impressum/">Impressum</a>
+      <a href="{{ .Site.BaseURL }}">Startseite</a> | 
+      <a href="{{ .Site.BaseURL }}abzeichen/">Abzeichen</a> | 
+      <a href="{{ .Site.BaseURL }}about/">Über uns</a> | 
+      <a href="{{ .Site.BaseURL }}impressum/">Impressum</a>
     </nav>
     <h1>{{ .Site.Title }}</h1>
     <p>{{ .Site.Params.description }}</p>

@@ -52,7 +52,6 @@ jobs:
           hugo \
             --gc \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --theme basketball-theme \
             --buildDrafts=false \
             --buildFuture=false
