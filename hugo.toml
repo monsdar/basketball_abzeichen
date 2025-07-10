@@ -1,4 +1,4 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://monsdar.github.io/Basketball_Abzeichen/'
 languageCode = 'de-de'
 title = 'Basketball Abzeichen'
 theme = 'basketball-theme'
@@ -16,4 +16,4 @@ theme = 'basketball-theme'
   home = ["HTML", "RSS"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
-  term = ["HTML", "RSS"] 
+  term = ["HTML", "RSS"]
