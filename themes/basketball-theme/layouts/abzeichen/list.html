@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <h2>Alle Abzeichen</h2>
+  <ul class="badge-list">
+    {{ range .Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+      </li>
+    {{ end }}
+  </ul>
+{{ end }} 

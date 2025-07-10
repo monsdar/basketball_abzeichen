@@ -1,0 +1,46 @@
+{{ define "main" }}
+<article class="badge-detail">
+  <h2>{{ .Title }}</h2>
+  <button onclick="window.print()" class="print-btn">Abzeichenblatt drucken</button>
+  <div class="badge-content">
+    {{ .Content }}
+  </div>
+  <a href="/abzeichen/">Zurück zur Übersicht</a>
+</article>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Mache nur ungeordnete Listenpunkte in Abzeichen-Inhalten klickbar
+  const badgeContent = document.querySelector('.badge-content');
+  if (badgeContent) {
+    const unorderedListItems = badgeContent.querySelectorAll('ul li');
+    unorderedListItems.forEach(function(item) {
+      item.addEventListener('click', function() {
+        this.classList.toggle('checked');
+      });
+    });
+  }
+  
+  // Ersetze Unterstriche durch ausfüllbare Felder
+  const content = badgeContent || document.querySelector('.badge-content');
+  if (content) {
+    // Finde alle Stellen mit Unterstrichen (mindestens 8 Stück)
+    const text = content.innerHTML;
+    const updatedText = text.replace(/(_{8,})/g, function(match) {
+      const fieldType = getFieldType(match);
+      return `<input type="text" class="fillable-field ${fieldType}">`;
+    });
+    content.innerHTML = updatedText;
+  }
+});
+
+function getFieldType(underscores) {
+  const text = underscores;
+  if (text.includes('Name')) return 'name-field';
+  if (text.includes('Datum')) return 'date-field';
+  if (text.includes('Trainer')) return 'trainer-field';
+  if (text.includes('Bestanden')) return 'date-field';
+  return 'fillable-field';
+}
+</script>
+{{ end }} 

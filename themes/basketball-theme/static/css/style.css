@@ -1,0 +1,150 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f8f8;
+  color: #222;
+}
+header, footer {
+  background: #fff;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.03);
+}
+header h1 {
+  margin: 0.2em 0 0 0;
+  font-size: 2rem;
+}
+header nav {
+  margin-bottom: 0.5em;
+}
+header nav a {
+  color: #1976d2;
+  text-decoration: none;
+  margin-right: 1em;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+.btn, .print-btn {
+  display: inline-block;
+  background: #1976d2;
+  color: #fff;
+  padding: 0.5em 1.2em;
+  border-radius: 4px;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 1em;
+}
+.btn:hover, .print-btn:hover {
+  background: #125ea2;
+}
+.badge-list {
+  list-style: none;
+  padding: 0;
+}
+.badge-list li {
+  margin-bottom: 0.7em;
+}
+.badge-list a {
+  font-size: 1.2em;
+  color: #1976d2;
+}
+.badge-detail h2 {
+  margin-top: 0;
+}
+.badge-content {
+  margin: 1.5em 0;
+}
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 2em;
+}
+
+/* Abhakbare Kästchen nur für ungeordnete Listen in Abzeichen */
+.badge-content ul {
+  list-style: none;
+  padding-left: 0;
+}
+.badge-content ul li {
+  position: relative;
+  padding-left: 2.5em;
+  margin-bottom: 0.8em;
+  line-height: 1.5;
+}
+.badge-content ul li:before {
+  content: "☐";
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 1.2em;
+  color: #666;
+  cursor: pointer;
+  user-select: none;
+}
+.badge-content ul li.checked:before {
+  content: "☑";
+  color: #4caf50;
+}
+.badge-content ul li:hover:before {
+  color: #1976d2;
+}
+
+/* Geordnete Listen behalten ihre normalen Zahlen */
+.badge-content ol {
+  padding-left: 1.5em;
+}
+.badge-content ol li {
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+/* Ausfüllbare Felder */
+.fillable-field {
+  display: inline-block;
+  min-width: 200px;
+  border: none;
+  border-bottom: 2px solid #333;
+  padding: 2px 4px;
+  margin: 0 4px;
+  background: transparent;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  text-align: center;
+  box-shadow: none;
+}
+
+.fillable-field:focus {
+  outline: none;
+  border-bottom-color: #1976d2;
+  background: transparent;
+  box-shadow: none;
+}
+
+.fillable-field:hover {
+  border-bottom-color: #1976d2;
+}
+
+/* Spezielle Felder für Trainer und Datum */
+.trainer-field {
+  min-width: 150px;
+}
+
+.date-field {
+  min-width: 120px;
+}
+
+.name-field {
+  min-width: 180px;
+} 

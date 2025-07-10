@@ -1,0 +1,19 @@
+baseURL = 'http://example.org/'
+languageCode = 'de-de'
+title = 'Basketball Abzeichen'
+theme = 'basketball-theme'
+
+[params]
+  description = "Abzeichen-System für Mini Basketballtraining"
+  author = "Nils Brinkmann"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+  taxonomy = ["HTML", "RSS"]
+  term = ["HTML", "RSS"] 

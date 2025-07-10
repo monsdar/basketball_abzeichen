@@ -2,7 +2,7 @@
 
 ## Idee & Konzept
 
-Die **Abzeichenreihe** im U10-Basketball dient dazu, gezielte Fähigkeiten auf spielerische und motivierende Weise zu fördern. Die Kinder stellen sich individuellen Herausforderungen in verschiedenen Bereichen wie Werfen, Passen, Dribbeln, Teamwork oder Spielverständnis.
+Die **Abzeichenreihe** im U10-Basketball dient dazu, Fähigkeiten auf spielerische und motivierende Weise zu fördern. Die Kinder stellen sich individuellen Herausforderungen in verschiedenen Bereichen wie Werfen, Passen, Dribbeln, Teamwork oder Spielverständnis.
 
 Durch das Sammeln von Abzeichen erleben die Kinder ihre Fortschritte bewusst und erhalten Anerkennung für ihren Einsatz im Training und Spiel.
 
@@ -27,7 +27,7 @@ Die Stufen sind **altersgerecht konzipiert** und fördern nicht nur technische F
 
 - Die Kinder können die Übungen im Training erlernen und beliebig oft üben.  
 - Jede Stufe wird vom Trainer überprüft und bei Bestehen auf dem Abzeichenblatt unterschrieben.  
-- Das Erreichen einer Stufe ist ein **Zeichen von Fleiß, Disziplin und Entwicklung**, es steht nicht der Vergleich mit anderen im Vordergrund.  
+- Das Erreichen einer Stufe ist ein **Zeichen von Fleiß, Disziplin und Entwicklung**, es steht nicht der Vergleich mit Anderen im Vordergrund.  
 
 Die Teilnahme ist **freiwillig**, soll aber **Leistungsfreude und persönlichen Fortschritt belohnen** – unabhängig vom Talent oder der bisherigen Erfahrung.
 

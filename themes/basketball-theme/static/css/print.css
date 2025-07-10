@@ -1,0 +1,47 @@
+@media print {
+  body, main {
+    background: #fff !important;
+    color: #000 !important;
+    box-shadow: none !important;
+  }
+  header, footer, nav, .print-btn, .btn, a[href] {
+    display: none !important;
+  }
+  main, .badge-detail, .badge-content {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
+  }
+  h1, h2, h3, h4 {
+    color: #000 !important;
+  }
+  .badge-detail {
+    page-break-after: always;
+  }
+  
+  /* Ausfüllbare Felder beim Drucken */
+  .fillable-field {
+    border: none !important;
+    border-bottom: 1px solid #000 !important;
+    background: transparent !important;
+    padding: 2px 4px !important;
+    margin: 0 4px !important;
+    min-width: 150px !important;
+    display: inline-block !important;
+  }
+  .fillable-field:focus {
+    outline: none !important;
+    background: transparent !important;
+  }
+  .name-field {
+    min-width: 180px !important;
+  }
+  .date-field {
+    min-width: 120px !important;
+  }
+  .trainer-field {
+    min-width: 150px !important;
+  }
+} 
