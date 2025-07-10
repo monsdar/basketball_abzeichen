@@ -5,12 +5,12 @@ date: 2025-07-10
 
 ## Was ist das Korbleger-Abzeichen?
 
-Der Korbleger ist einer der wichtigsten Abschlüsse im Basketball. In diesem Abzeichen zeigst du, dass du den Korbleger sicher und sauber ausführen kannst – mit beiden Händen und im Spiel.
+Der Korbleger ist einer der wichtigsten Abschlüsse im Basketball. In diesem Abzeichen zeigst du, dass du den Korbleger sicher und sauber ausführen kannst: mit beiden Händen und im Spiel.
 
 1. Die Übungen dürfen mehrfach trainiert werden.
 1. Jede Stufe kann einzeln abgelegt und bestätigt werden.
 
-Körperkontrolle, Rhythmus und Technik – und dann ab in den Korb!
+Körperkontrolle, Rhythmus und Technik und dann ab in den Korb!
 
 Name: __________________________  
 Datum: __________________________

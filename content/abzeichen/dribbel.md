@@ -5,12 +5,12 @@ date: 2025-07-10
 
 ## Was ist das Dribbel-Abzeichen?
 
-Mit dem Dribbel-Abzeichen zeigst du, wie sicher du den Ball führen kannst – mit beiden Händen, unter Kontrolle und auch im Spiel.
+Mit dem Dribbel-Abzeichen zeigst du, wie sicher du den Ball führen kannst. Mit beiden Händen, unter Kontrolle und auch im Spiel.
 
 1. Die Übungen dürfen mehrfach trainiert werden.
 1. Jede Stufe kann einzeln abgelegt und bestätigt werden.
 
-Ein guter Dribbler bleibt cool – auch wenn’s eng wird!
+Ein guter Dribbler bleibt cool, auch wenn’s eng wird!
 
 Name: __________________________  
 Datum: __________________________
