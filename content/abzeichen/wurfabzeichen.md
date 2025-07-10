@@ -20,9 +20,9 @@ Datum: __________________________
 # Stufe 1: Starter
 Du hast die Grundlagen gemeistert und zeigst erste Sicherheit beim Werfen.
 
-* 5 von 10 Treffern aus mittlerer Entfernung (Freiraumlinie)
-* 3 von 5 Korblegern mit deiner starken Hand
-* 2 von 5 Freiwürfen
+* 5 von 10 Treffer innerhalb der Zone
+* 3 von 5 Korbleger mit deiner starken Hand
+* 2 von 5 Freiwürfe
 * Wurftechnik: Korrekte Handhaltung und Bewegungsausführung
     (wird vom Trainer beobachtet)
 
@@ -34,10 +34,10 @@ Bestanden am: ________________
 # Stufe 2: Profi
 Du wirst sicherer und kannst verschiedene Würfe im Spiel einsetzen.
 
-* 7 von 10 Treffern aus mittlerer Entfernung
-* Je 3 von 5 Korblegern mit beiden Händen
-* 4 von 5 Freiwürfen
-* Laufwurf (Floater, Stop-Wurf) – 2 erfolgreiche Versuche
+* 7 von 10 Treffer innerhalb der Zone
+* 3 von 5 Korbleger mit deiner starken Hand
+* 3 von 5 Korbleger mit deiner schwachen Hand
+* 2 von 5 Treffer aus dem Dribbling heraus
 
 Trainer: _______________________
 Bestanden am: ________________
@@ -47,8 +47,8 @@ Bestanden am: ________________
 # Stufe 3: Champion
 Du beherrschst den Wurf – auch unter Druck und aus der Distanz.
 
-* 3 Treffer in Folge unter Zeitdruck (5 Würfe in 30 Sekunden)
-* 2 von 5 Treffern von der Drei-Punkte-Linie (Jugendmaß)
+* 3 Treffer unter Zeitdruck (5 Würfe in 30 Sekunden)
+* 3 von 5 Dreier (außerhalb der Zone)
 * Spielprüfung: 2 gute Wurfsituationen genutzt im echten Spiel
 * Technik und Entscheidung: sicherer Wurf mit guter Auswahl (vom Trainer bewertet)
 
