@@ -12,11 +12,11 @@ Durch das Sammeln von Abzeichen erleben die Kinder ihre Fortschritte bewusst und
 
 Jedes Abzeichen ist in **drei Stufen** unterteilt, die sich im Schwierigkeitsgrad und in der geforderten Spielkompetenz unterscheiden:
 
-- 🟠 **Stufe 1: Starter**  
+- ⚪ **Stufe 1: Starter**  
   Erste Grundlagen, Techniken und einfache Anwendung  
-- 🟡 **Stufe 2: Profi**  
+- 🔵 **Stufe 2: Profi**  
   Gesteigerte Anforderungen, Sicherheit und Flexibilität  
-- 🟢 **Stufe 3: Champion**  
+- 🟡 **Stufe 3: Champion**  
   Anwendung unter Zeitdruck oder im Spielkontext  
 
 Die Stufen sind **altersgerecht konzipiert** und fördern nicht nur technische Fertigkeiten, sondern auch Konzentration, Fairness und Spielintelligenz.
