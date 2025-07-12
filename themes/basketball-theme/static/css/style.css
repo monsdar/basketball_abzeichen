@@ -147,4 +147,15 @@ footer {
 
 .name-field {
   min-width: 180px;
+}
+header .biba-logo-header {
+  position: absolute !important;
+  top: 0.5rem !important;
+  right: 0.5rem !important;
+  z-index: 10 !important;
+}
+header .biba-logo-header img {
+  display: block !important;
+  max-width: 300px !important;
+  max-height: 300px !important;
 } 
