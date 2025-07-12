@@ -1,6 +1,7 @@
 ---
-title: "Korbleger-Abzeichen"
+title: "Korblegerabzeichen"
 date: 2025-07-10
+summary: "Direkt zum Korb! Lerne verschiedene Korbleger-Techniken und sichere Punkte."
 ---
 
 ## Was ist das Korbleger-Abzeichen?

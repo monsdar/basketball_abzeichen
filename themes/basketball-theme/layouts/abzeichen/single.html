@@ -1,11 +1,28 @@
 {{ define "main" }}
 <article class="badge-detail">
-  <h2>{{ .Title }}</h2>
-  <button onclick="window.print()" class="print-btn">Abzeichenblatt drucken</button>
+  <div class="badge-header">
+    <div class="badge-header-content">
+      <h2>{{ .Title }}</h2>
+      <div class="badge-header-icon">
+        {{ if eq .Title "Dribbelabzeichen" }}
+          <img src="/Dribbling.svg" alt="Dribbling Abzeichen" class="badge-detail-svg" />
+        {{ else if eq .Title "Passabzeichen" }}
+          <img src="/Pass.svg" alt="Pass Abzeichen" class="badge-detail-svg" />
+        {{ else if eq .Title "Wurfabzeichen" }}
+          <img src="/Wurf.svg" alt="Wurf Abzeichen" class="badge-detail-svg" />
+        {{ else if eq .Title "Korblegerabzeichen" }}
+          <img src="/Layup.svg" alt="Korbleger Abzeichen" class="badge-detail-svg" />
+        {{ else if eq .Title "Teamworkabzeichen" }}
+          <img src="/Teamwork.svg" alt="Teamwork Abzeichen" class="badge-detail-svg" />
+        {{ end }}
+      </div>
+    </div>
+    <button onclick="window.print()" class="print-btn">Abzeichenblatt drucken</button>
+  </div>
   <div class="badge-content">
     {{ .Content }}
   </div>
-  <a href="{{ .Site.BaseURL }}abzeichen/">Zurück zur Übersicht</a>
+  <a href="{{ .Site.BaseURL }}abzeichen/" class="back-link">Zurück zur Übersicht</a>
 </article>
 
 <!-- Druckversion für Heftchen-Format -->
@@ -14,6 +31,19 @@
   <div class="booklet-page front-page">
     <div class="page-content">
       <h1>{{ .Title }}</h1>
+      <div class="booklet-badge-icon">
+        {{ if eq .Title "Dribbelabzeichen" }}
+          <img src="/Dribbling.svg" alt="Dribbling Abzeichen" class="booklet-badge-svg" />
+        {{ else if eq .Title "Passabzeichen" }}
+          <img src="/Pass.svg" alt="Pass Abzeichen" class="booklet-badge-svg" />
+        {{ else if eq .Title "Wurfabzeichen" }}
+          <img src="/Wurf.svg" alt="Wurf Abzeichen" class="booklet-badge-svg" />
+        {{ else if eq .Title "Korblegerabzeichen" }}
+          <img src="/Layup.svg" alt="Korbleger Abzeichen" class="booklet-badge-svg" />
+        {{ else if eq .Title "Teamworkabzeichen" }}
+          <img src="/Teamwork.svg" alt="Teamwork Abzeichen" class="booklet-badge-svg" />
+        {{ end }}
+      </div>
       <div class="intro-content">
         {{ if .Params.intro }}{{ .Params.intro }}{{ else }}
         Mit diesem Abzeichen beweist du dein Können in verschiedenen Bereichen des Basketballs. 

@@ -1,6 +1,7 @@
 ---
 title: "Wurfabzeichen"
 date: 2025-07-10
+summary: "Treffer! Lerne verschiedene Wurftechniken und verbessere deine Trefferquote."
 ---
 
 ## Was ist das Wurf-Abzeichen?

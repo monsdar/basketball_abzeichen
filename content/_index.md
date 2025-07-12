@@ -1,8 +1,43 @@
-# Abzeichen im U10-Basketballtraining
+# Abzeichen im Mini Basketball
+
+## Unsere Abzeichen
+
+<div class="badges-showcase">
+  <div class="badge-item">
+    <a href="abzeichen/dribbel/" class="badge-link">
+      <img src="Dribbling.svg" alt="Dribbling Abzeichen" class="badge-svg" />
+      <h3>Dribbling</h3>
+    </a>
+  </div>
+  <div class="badge-item">
+    <a href="abzeichen/pass/" class="badge-link">
+      <img src="Pass_profi.svg" alt="Pass Abzeichen" class="badge-svg" />
+      <h3>Pass</h3>
+    </a>
+  </div>
+  <div class="badge-item">
+    <a href="abzeichen/wurfabzeichen/" class="badge-link">
+      <img src="Wurf_champ.svg" alt="Wurf Abzeichen" class="badge-svg" />
+      <h3>Wurf</h3>
+    </a>
+  </div>
+  <div class="badge-item">
+    <a href="abzeichen/korbleger/" class="badge-link">
+      <img src="Layup_profi.svg" alt="Korbleger Abzeichen" class="badge-svg" />
+      <h3>Korbleger</h3>
+    </a>
+  </div>
+  <div class="badge-item">
+    <a href="abzeichen/teamwork/" class="badge-link">
+      <img src="Teamwork.svg" alt="Teamwork Abzeichen" class="badge-svg" />
+      <h3>Teamwork</h3>
+    </a>
+  </div>
+</div>
 
 ## Idee & Konzept
 
-Die **Abzeichenreihe** im U10-Basketball dient dazu, Fähigkeiten auf spielerische und motivierende Weise zu fördern. Die Kinder stellen sich individuellen Herausforderungen in verschiedenen Bereichen wie Werfen, Passen, Dribbeln, Teamwork oder Spielverständnis.
+Die **Abzeichenreihe** im Mini Basketball dient dazu, Fähigkeiten auf spielerische und motivierende Weise zu fördern. Die Kinder stellen sich individuellen Herausforderungen in verschiedenen Bereichen wie Werfen, Passen, Dribbeln, Korbleger oder Teamwork.
 
 Durch das Sammeln von Abzeichen erleben die Kinder ihre Fortschritte bewusst und erhalten Anerkennung für ihren Einsatz im Training und Spiel.
 

@@ -1,6 +1,7 @@
 ---
 title: "Dribbelabzeichen"
 date: 2025-07-10
+summary: "Zeige deine Ballkontrolle! Lerne sicheres Dribbeln mit beiden Händen und unter Druck."
 ---
 
 ## Was ist das Dribbel-Abzeichen?

@@ -1,6 +1,7 @@
 ---
 title: "Passabzeichen"
 date: 2025-07-10
+summary: "Perfekte Pässe! Lerne präzise und sichere Pässe in verschiedenen Spielsituationen."
 ---
 
 ## Was ist das Pass-Abzeichen?

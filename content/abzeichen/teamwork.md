@@ -1,6 +1,7 @@
 ---
-title: "Teamwork-Abzeichen"
+title: "Teamworkabzeichen"
 date: 2025-07-10
+summary: "Gemeinsam stark! Lerne Teamplay, Kommunikation und Fairness im Basketball."
 ---
 
 ## Was ist das Teamwork-Abzeichen?

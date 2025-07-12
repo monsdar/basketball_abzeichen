@@ -58,11 +58,101 @@ main {
   font-size: 1.2em;
   color: #1976d2;
 }
+/* Badge-Detail Styling */
 .badge-detail h2 {
   margin-top: 0;
 }
+
+.badge-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  gap: 2rem;
+}
+
+.badge-header-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  flex: 1;
+}
+
+.badge-header-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge-detail-svg {
+  width: 80px;
+  height: 80px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
 .badge-content {
   margin: 1.5em 0;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #1976d2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.back-link:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design für Badge-Detail */
+@media (max-width: 768px) {
+  .badge-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  
+  .badge-header-content {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .badge-detail-svg {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .badge-detail-svg {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* Druckversion Styling */
+.booklet-badge-icon {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0;
+}
+
+.booklet-badge-svg {
+  width: 60px;
+  height: 60px;
+  filter: drop-shadow(0 1px 2px rgba(0,0,0,0.1));
+}
+
+@media print {
+  .booklet-badge-svg {
+    width: 50px;
+    height: 50px;
+  }
 }
 footer {
   text-align: center;
@@ -158,4 +248,225 @@ header .biba-logo-header img {
   display: block !important;
   max-width: 300px !important;
   max-height: 300px !important;
+} 
+
+/* Abzeichen-Darstellung auf der Hauptseite */
+.badges-showcase {
+  display: flex;
+  flex-wrap: nowrap; /* Kein Umbruch - alle in einer Reihe */
+  justify-content: center;
+  gap: 1rem; /* Kleinerer Abstand für eine Reihe */
+  margin: 2rem 0;
+  padding: 2rem;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  /* overflow-x: auto; Entfernt - keine Scrollbar */
+}
+
+.badge-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  padding: 1rem;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  flex: 1; /* Alle Abzeichen teilen sich den verfügbaren Platz gleichmäßig */
+  min-width: 0; /* Erlaubt Schrumpfen */
+}
+
+/* Hover-Effekt wird jetzt von den Links übernommen */
+.badge-item:hover {
+  /* Hover-Effekt entfernt, da jetzt von .badge-link übernommen */
+}
+
+.badge-svg {
+  width: 100%; /* Responsive Breite */
+  height: auto; /* Automatische Höhe */
+  max-width: 120px; /* Maximale Größe */
+  max-height: 120px;
+  margin-bottom: 1rem;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.badge-item h3 {
+  margin: 0;
+  font-size: clamp(0.8rem, 2vw, 1rem); /* Responsive Schriftgröße */
+  color: #333;
+  font-weight: 600;
+}
+
+/* Badge-Links Styling */
+.badge-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.badge-link:hover {
+  transform: translateY(-5px);
+  text-decoration: none;
+  color: inherit;
+}
+
+.badge-link:hover .badge-svg {
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.2));
+}
+
+.badge-link:hover h3 {
+  color: #1976d2;
+}
+
+/* SVG Farbanpassungen über CSS-Filter */
+.badge-svg {
+  /* Standard-Filter für alle Abzeichen */
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .badges-showcase {
+    gap: 0.5rem; /* Noch kleinerer Abstand auf Tablets */
+    padding: 1rem;
+  }
+  
+  .badge-svg {
+    max-width: 80px;
+    max-height: 80px;
+  }
+  
+  .badge-item {
+    padding: 0.5rem;
+  }
+  
+  .badge-item h3 {
+    font-size: clamp(0.7rem, 1.5vw, 0.9rem);
+  }
+}
+
+@media (max-width: 480px) {
+  .badges-showcase {
+    padding: 0.5rem;
+    gap: 0.3rem;
+  }
+  
+  .badge-svg {
+    max-width: 60px;
+    max-height: 60px;
+  }
+  
+  .badge-item {
+    padding: 0.3rem;
+  }
+  
+  .badge-item h3 {
+    font-size: clamp(0.6rem, 1.2vw, 0.8rem);
+  }
+} 
+
+/* Abzeichenliste Styling */
+.badges-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.badge-list-item {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+}
+
+.badge-list-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.badge-list-link {
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+  gap: 1.5rem;
+}
+
+.badge-list-link:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.badge-list-icon {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.badge-list-svg {
+  width: 60px;
+  height: 60px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.1));
+}
+
+.badge-list-content {
+  flex: 1;
+}
+
+.badge-list-content h3 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.3rem;
+  color: #333;
+  font-weight: 600;
+}
+
+.badge-list-content p {
+  margin: 0;
+  color: #666;
+  line-height: 1.5;
+}
+
+/* Responsive Design für Abzeichenliste */
+@media (max-width: 768px) {
+  .badge-list-link {
+    padding: 1rem;
+    gap: 1rem;
+  }
+  
+  .badge-list-svg {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .badge-list-content h3 {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .badge-list-link {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .badge-list-svg {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .badge-list-content h3 {
+    font-size: 1rem;
+  }
 } 
