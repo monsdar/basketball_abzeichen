@@ -278,11 +278,6 @@ header .biba-logo-header img {
   min-width: 0; /* Erlaubt Schrumpfen */
 }
 
-/* Hover-Effekt wird jetzt von den Links übernommen */
-.badge-item:hover {
-  /* Hover-Effekt entfernt, da jetzt von .badge-link übernommen */
-}
-
 .badge-svg {
   width: 100%; /* Responsive Breite */
   height: auto; /* Automatische Höhe */
