@@ -23,7 +23,7 @@ Du kennst die Grundpässe und kannst den Ball sicher weitergeben.
 
 * 8 von 10 Brustpässen auf Ziel (z. B. Reifen, Wandmarkierung)
 * 8 von 10 Bodenpässe auf Ziel
-* Passannahme: Sicheres Fangen auf kurzer Distanz (3 Meter)
+* Passannahme: Sicheres Fangen auf kurze Distanz (3 Meter)
 * Technik: korrekte Fußstellung und Passausführung
 * Bereitschaft zum Passen anzeigen, Ball fordern
 
@@ -51,7 +51,7 @@ Du passt klug, schnell und auch unter Druck.
 * 5 einhändige Pässe mit der schwachen Hand auf Ziel
 * Passen im Zweierlauf mit abschließendem Korbleger (mit Mitspieler)
 * 5 Pässe unter Druck mit Verteidigung (Sternschritt nutzen!)
-* 8 von 10 Pässe auf Ziel in 20 Sekunden
+* 8 von 10 Pässe auf Ziel in 30 Sekunden
 * Übersicht & Entscheidung: richtige Passauswahl im 2-gegen-1
 
 Trainer: _______________________  

@@ -22,8 +22,8 @@ Datum: __________________________
 Du hast die Grundlagen gemeistert und zeigst erste Sicherheit beim Werfen.
 
 * 5 von 10 Treffer innerhalb der Zone
-* 3 von 5 Korbleger mit deiner starken Hand
-* 2 von 5 Freiwürfe
+* 5 von 10 Korbleger mit deiner starken Hand
+* 5 von 10 Freiwürfe
 * Wurftechnik: Korrekte Handhaltung und Bewegungsausführung
     (wird vom Trainer beobachtet)
 
@@ -36,9 +36,9 @@ Bestanden am: ________________
 Du wirst sicherer und kannst verschiedene Würfe im Spiel einsetzen.
 
 * 7 von 10 Treffer innerhalb der Zone
-* 3 von 5 Korbleger mit deiner starken Hand
-* 3 von 5 Korbleger mit deiner schwachen Hand
-* 2 von 5 Treffer aus dem Dribbling heraus
+* 7 von 10 Korbleger mit deiner starken Hand
+* 5 von 10 Korbleger mit deiner schwachen Hand
+* 5 von 10 Treffer aus dem Dribbling heraus
 
 Trainer: _______________________
 Bestanden am: ________________
@@ -48,8 +48,8 @@ Bestanden am: ________________
 # Stufe 3: Champion
 Du beherrschst den Wurf – auch unter Druck und aus der Distanz.
 
-* 3 Treffer unter Zeitdruck (5 Würfe in 30 Sekunden)
-* 3 von 5 Dreier (außerhalb der Zone)
+* 7 von 10 Treffer unter Zeitdruck (in 60 Sekunden)
+* 5 von 10 Dreier (außerhalb der Zone)
 * Spielprüfung: 2 gute Wurfsituationen genutzt im echten Spiel
 * Technik und Entscheidung: sicherer Wurf mit guter Auswahl (vom Trainer bewertet)
 

@@ -21,7 +21,7 @@ Datum: __________________________
 # Stufe 1: Starter
 Du kennst den Ablauf des Korblegers und triffst aus der Bewegung.
 
-* 3 von 5 Korblegern mit der starken Hand (aus dem Stand oder Anlauf)
+* 5 von 10 Korblegern mit der starken Hand (aus dem Stand oder Anlauf)
 * Korrekte Schrittfolge: „Außen – Innen – Hoch“ (mind. 3x sauber gezeigt)
 * Sprungbein und Wurfarm stimmen überein
 * Absprung klar einbeinig (kein Hoppser)
@@ -34,9 +34,9 @@ Bestanden am: ________________
 # Stufe 2: Profi
 Du kannst den Korbleger sicher und flexibel einsetzen.
 
-* 5 von 8 Korblegern mit der starken Hand im Anlauf
-* 3 von 5 Korblegern mit der schwachen Hand
-* 2 erfolgreiche Korbleger nach Ballannahme oder Pass
+* 5 von 10 Korblegern mit der starken Hand im Anlauf
+* 3 von 10 Korblegern mit der schwachen Hand
+* 5 erfolgreiche Korbleger nach Ballannahme oder Pass
 * 5 erfolgreiche Korbleger gegen leichte Verteidigung
 
 Trainer: _______________________  
@@ -47,9 +47,9 @@ Bestanden am: ________________
 # Stufe 3: Champion
 Dein Korbleger sitzt – auch unter Druck und im Spiel.
 
-* Korbleger nach Richtungswechsel oder Finte (mind. 2x gezeigt)
+* 5 Korbleger nach Richtungswechsel oder Finte
 * 5 erfolgreiche Korbleger im 1on2 gegen starke Verteidigung
-* 3 unterschiedliche Korbleger im Spiel getroffen (links, rechts, nach Pass, Richtungswechsel)
+* 3 unterschiedliche Korbleger im Spiel getroffen (links, rechts, nach Pass, Richtungswechsel, ...)
 * Saubere Technik, klarer Bewegungsfluss und richtige Entscheidung im Spiel
 
 Trainer: _______________________  

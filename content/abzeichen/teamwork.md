@@ -22,7 +22,7 @@ Datum: __________________________
 Du bist freundlich, hilfst anderen und spielst fair mit.
 
 * Zeige regelmäßig faires Verhalten im Training (z. B. bei Ballbesitz, Fouls)
-* Unterstütze Teammitglieder beim Üben (z. B. Zuspielen, Tipps geben)
+* Gebe regelmäßig motivierende Impulse (z. B. Applaus, Anfeuern)
 * Halte dich an Spielregeln und achte auf Anweisungen
 * Lasse Mitspieler*innen den Vortritt bei Übungen (mind. 1x beobachtet)
 
@@ -47,7 +47,7 @@ Bestanden am: ________________
 # Stufe 3: Champion
 Du bist ein echtes Vorbild für Teamgeist und Zusammenhalt.
 
-* Gebe regelmäßig motivierende Impulse (z. B. Applaus, Anfeuern)
+* Unterstütze Teammitglieder beim Üben (z. B. Zuspielen, Tipps geben)
 * Beweise in mehreren Trainings: Teamleistung ist größer als Eigenleistung
 * Reagiere vorbildlich auf Streit, Fouls oder Frust im Spiel
 * Übernehme Verantwortung im Team (z. B. bei Aufstellung, Hilfe, Gruppen)
