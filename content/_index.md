@@ -1,7 +1,5 @@
 # Abzeichen im Mini Basketball
 
-## Unsere Abzeichen
-
 <div class="badges-showcase">
   <div class="badge-item">
     <a href="abzeichen/dribbel/" class="badge-link">
@@ -41,6 +39,10 @@ Die **Abzeichenreihe** im Mini Basketball dient dazu, Fähigkeiten auf spieleris
 
 Durch das Sammeln von Abzeichen erleben die Kinder ihre Fortschritte bewusst und erhalten Anerkennung für ihren Einsatz im Training und Spiel.
 
+Die Abzeichen sind als weiterer Ansporn nach Bestehen der [DBB Abzeichen](https://www.basketball-bund.de/jugend/spieltreff-und-spielabzeichen/) gedacht. Mit dem DBB Goldabzeichen beherrschen die Kinder bereits die grundlegenden Fähigkeiten im Basketball. Die hier dargestellten Abzeichen fördern die weitere Entwicklung dieser Fähigkeiten.
+
+Der Schwierigkeitsgrad ist so ausgelegt, dass ein Spieler bis zum Erreichen der U12 alle Abzeichen erreichen kann - Fleiß und Übung vorausgesetzt. Aber auch nach dem Wechsel in die U12 (oder für Kinder die später zum Basketball gekommen sind) stellen sie noch eine ausreichende Herausforderung dar.
+
 ---
 
 ## Aufbau der Abzeichen
@@ -74,3 +76,25 @@ Die Teilnahme ist **freiwillig**, soll aber **Leistungsfreude und persönlichen 
 - Abzeichen schaffen **sichtbare Erfolgserlebnisse**.  
 - Kinder lernen: **Übung, nicht Talent**, macht den Unterschied.  
 - Das Konzept stärkt **Selbstvertrauen, Disziplin und Motivation**.
+
+---
+
+## Material
+
+Derzeit gibt es keine offiziellen Materialen. Die Abzeichen sind als SVG verfügbar und können je nach Budget und Fähigkeit selbst hergestellt werden. Für meine Mannschaft habe ich die Abzeichen mit einem 3D Drucker erstellt. Die Abzeichen sind als Anhänger gedacht, so können sie am Bund an der Sporttasche oder am Ranzen getragen und präsentiert werden. Alternativ können die Abzeichen auch als Sticker, Ansteckbutton oder Magnet gefertigt werden - es gibt diverse Dienste im Internet um dies umzusetzen.
+
+### Farben
+
+Die Abzeichen sind in folgender Farbkombination gedacht:
+
+* **Starter**: Hintergrund Weiß, Vordergrund Schwarz
+* **Profi**: Hintergrund Silber, Vordergrund Weiß
+* **Champion**: Hintergrund Schwarz, Vordergrund Gold
+
+### Downloads
+
+* **Dribbling** ([Starter](Dribbling.svg), [Profi](Dribbling_Profi.svg), [Champion](Dribbling_Champ.svg))
+* **Pass** ([Starter](Pass.svg), [Profi](Pass_Profi.svg), [Champion](Pass_Champ.svg))
+* **Wurf** ([Starter](Wurf.svg), [Profi](Wurf_Profi.svg), [Champion](Wurf_Champ.svg))
+* **Korbleger** ([Starter](Layup.svg), [Profi](Layup_Profi.svg), [Champion](Layup_Champ.svg))
+* **Teamwork** ([Starter](Teamwork.svg), [Profi](Teamwork_Profi.svg), [Champion](Teamwork_Champ.svg))
