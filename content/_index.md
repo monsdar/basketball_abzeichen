@@ -83,6 +83,8 @@ Die Teilnahme ist **freiwillig**, soll aber **Leistungsfreude und persönlichen 
 
 Derzeit gibt es keine offiziellen Materialen. Die Abzeichen sind als SVG verfügbar und können je nach Budget und Fähigkeit selbst hergestellt werden. Für meine Mannschaft habe ich die Abzeichen mit einem 3D Drucker erstellt. Die Abzeichen sind als Anhänger gedacht, so können sie am Bund an der Sporttasche oder am Ranzen getragen und präsentiert werden. Alternativ können die Abzeichen auch als Sticker, Ansteckbutton oder Magnet gefertigt werden - es gibt diverse Dienste im Internet um dies umzusetzen.
 
+![Champ Abzeichen](champ_abzeichen.png)
+
 ### Farben
 
 Die Abzeichen sind in folgender Farbkombination gedacht:

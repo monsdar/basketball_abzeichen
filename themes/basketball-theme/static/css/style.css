@@ -238,6 +238,47 @@ footer {
 .name-field {
   min-width: 180px;
 }
+
+/* Bild-Styling für die Hauptseite */
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin: 2rem auto;
+  display: block;
+}
+
+/* Spezielles Styling für das Champ Abzeichen */
+main img[alt*="Champ Abzeichen"] {
+  max-width: 300px;
+  border: 3px solid #f0f0f0;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+main img[alt*="Champ Abzeichen"]:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+/* Responsive Design für Bilder */
+@media (max-width: 768px) {
+  main img[alt*="Champ Abzeichen"] {
+    max-width: 250px;
+    padding: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  main img[alt*="Champ Abzeichen"] {
+    max-width: 200px;
+    padding: 0.6rem;
+  }
+}
 header {
   position: relative;
   display: flex;
