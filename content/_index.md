@@ -49,7 +49,7 @@ Jedes Abzeichen ist in **drei Stufen** unterteilt, die sich im Schwierigkeitsgra
 
 - ⚪ **Stufe 1: Starter**  
   Erste Grundlagen, Techniken und einfache Anwendung  
-- 🔵 **Stufe 2: Profi**  
+- ⚫ **Stufe 2: Profi**  
   Gesteigerte Anforderungen, Sicherheit und Flexibilität  
 - 🟡 **Stufe 3: Champion**  
   Anwendung unter Zeitdruck oder im Spielkontext  
