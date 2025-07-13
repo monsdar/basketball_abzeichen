@@ -5,15 +5,15 @@
       <h2>{{ .Title }}</h2>
       <div class="badge-header-icon">
         {{ if eq .Title "Dribbelabzeichen" }}
-          <img src="/Dribbling.svg" alt="Dribbling Abzeichen" class="badge-detail-svg" />
+          <img src="{{ .Site.BaseURL }}Dribbling.svg" alt="Dribbling Abzeichen" class="badge-detail-svg" />
         {{ else if eq .Title "Passabzeichen" }}
-          <img src="/Pass.svg" alt="Pass Abzeichen" class="badge-detail-svg" />
+          <img src="{{ .Site.BaseURL }}Pass.svg" alt="Pass Abzeichen" class="badge-detail-svg" />
         {{ else if eq .Title "Wurfabzeichen" }}
-          <img src="/Wurf.svg" alt="Wurf Abzeichen" class="badge-detail-svg" />
+          <img src="{{ .Site.BaseURL }}Wurf.svg" alt="Wurf Abzeichen" class="badge-detail-svg" />
         {{ else if eq .Title "Korblegerabzeichen" }}
-          <img src="/Layup.svg" alt="Korbleger Abzeichen" class="badge-detail-svg" />
+          <img src="{{ .Site.BaseURL }}Layup.svg" alt="Korbleger Abzeichen" class="badge-detail-svg" />
         {{ else if eq .Title "Teamworkabzeichen" }}
-          <img src="/Teamwork.svg" alt="Teamwork Abzeichen" class="badge-detail-svg" />
+          <img src="{{ .Site.BaseURL }}Teamwork.svg" alt="Teamwork Abzeichen" class="badge-detail-svg" />
         {{ end }}
       </div>
     </div>
@@ -33,15 +33,15 @@
       <h1>{{ .Title }}</h1>
       <div class="booklet-badge-icon">
         {{ if eq .Title "Dribbelabzeichen" }}
-          <img src="/Dribbling.svg" alt="Dribbling Abzeichen" class="booklet-badge-svg" />
+          <img src="{{ .Site.BaseURL }}Dribbling.svg" alt="Dribbling Abzeichen" class="booklet-badge-svg" />
         {{ else if eq .Title "Passabzeichen" }}
-          <img src="/Pass.svg" alt="Pass Abzeichen" class="booklet-badge-svg" />
+          <img src="{{ .Site.BaseURL }}Pass.svg" alt="Pass Abzeichen" class="booklet-badge-svg" />
         {{ else if eq .Title "Wurfabzeichen" }}
-          <img src="/Wurf.svg" alt="Wurf Abzeichen" class="booklet-badge-svg" />
+          <img src="{{ .Site.BaseURL }}Wurf.svg" alt="Wurf Abzeichen" class="booklet-badge-svg" />
         {{ else if eq .Title "Korblegerabzeichen" }}
-          <img src="/Layup.svg" alt="Korbleger Abzeichen" class="booklet-badge-svg" />
+          <img src="{{ .Site.BaseURL }}Layup.svg" alt="Korbleger Abzeichen" class="booklet-badge-svg" />
         {{ else if eq .Title "Teamworkabzeichen" }}
-          <img src="/Teamwork.svg" alt="Teamwork Abzeichen" class="booklet-badge-svg" />
+          <img src="{{ .Site.BaseURL }}Teamwork.svg" alt="Teamwork Abzeichen" class="booklet-badge-svg" />
         {{ end }}
       </div>
       <div class="intro-content">

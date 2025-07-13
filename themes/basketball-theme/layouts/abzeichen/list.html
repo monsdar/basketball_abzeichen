@@ -7,15 +7,15 @@
         <a href="{{ .Permalink }}" class="badge-list-link">
           <div class="badge-list-icon">
             {{ if eq .Title "Dribbelabzeichen" }}
-              <img src="/Dribbling.svg" alt="Dribbling Abzeichen" class="badge-list-svg" />
+              <img src="{{ .Site.BaseURL }}Dribbling.svg" alt="Dribbling Abzeichen" class="badge-list-svg" />
             {{ else if eq .Title "Passabzeichen" }}
-              <img src="/Pass.svg" alt="Pass Abzeichen" class="badge-list-svg" />
+              <img src="{{ .Site.BaseURL }}Pass.svg" alt="Pass Abzeichen" class="badge-list-svg" />
             {{ else if eq .Title "Wurfabzeichen" }}
-              <img src="/Wurf.svg" alt="Wurf Abzeichen" class="badge-list-svg" />
+              <img src="{{ .Site.BaseURL }}Wurf.svg" alt="Wurf Abzeichen" class="badge-list-svg" />
             {{ else if eq .Title "Korblegerabzeichen" }}
-              <img src="/Layup.svg" alt="Korbleger Abzeichen" class="badge-list-svg" />
+              <img src="{{ .Site.BaseURL }}Layup.svg" alt="Korbleger Abzeichen" class="badge-list-svg" />
             {{ else if eq .Title "Teamworkabzeichen" }}
-              <img src="/Teamwork.svg" alt="Teamwork Abzeichen" class="badge-list-svg" />
+              <img src="{{ .Site.BaseURL }}Teamwork.svg" alt="Teamwork Abzeichen" class="badge-list-svg" />
             {{ end }}
           </div>
           <div class="badge-list-content">

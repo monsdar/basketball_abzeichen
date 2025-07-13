@@ -238,16 +238,52 @@ footer {
 .name-field {
   min-width: 180px;
 }
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+header .header-content {
+  padding-right: 200px;
+  min-height: 120px;
+}
+
 header .biba-logo-header {
-  position: absolute !important;
-  top: 0.5rem !important;
-  right: 0.5rem !important;
-  z-index: 10 !important;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1;
 }
 header .biba-logo-header img {
-  display: block !important;
-  max-width: 300px !important;
-  max-height: 300px !important;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  max-height: 120px;
+  width: auto;
+}
+
+/* Responsive Anpassungen für das Biba Logo */
+@media (max-width: 768px) {
+  header .header-content {
+    padding-right: 120px;
+    min-height: 80px;
+  }
+  
+  header .biba-logo-header img {
+    max-height: 80px;
+  }
+}
+
+@media (max-width: 480px) {
+  header .header-content {
+    padding-right: 80px;
+    min-height: 60px;
+  }
+  
+  header .biba-logo-header img {
+    max-height: 60px;
+  }
 } 
 
 /* Abzeichen-Darstellung auf der Hauptseite */

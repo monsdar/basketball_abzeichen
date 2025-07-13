@@ -10,7 +10,10 @@
 </head>
 <body>
   <header>
-    <div style="position: relative;">
+    <div class="biba-logo-header">
+      <img src="{{ .Site.BaseURL }}images/bgbiba_full.svg" alt="Biba Logo" />
+    </div>
+    <div class="header-content">
       <nav>
         <a href="{{ .Site.BaseURL }}">Startseite</a> | 
         <a href="{{ .Site.BaseURL }}abzeichen/">Abzeichen</a> | 
@@ -19,9 +22,6 @@
       </nav>
       <h1>{{ .Site.Title }}</h1>
       <p>{{ .Site.Params.description }}</p>
-      <div class="biba-logo-header">
-        <img src="{{ .Site.BaseURL }}images/bgbiba_full.svg" alt="Biba Logo" />
-      </div>
     </div>
   </header>
   <main>
