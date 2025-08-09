@@ -10,7 +10,6 @@ date: 2025-07-10
 Nils Brinkmann
 Stettiner Straße 16
 28832 Achim
-Telefon: 0163-1632222
 Email: nils@brink.men
 ```
 
